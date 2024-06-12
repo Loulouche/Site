@@ -2,22 +2,31 @@ $(document).ready(function () {
   const resources = {
     en: {
       translation: {
+        table_download: {
+          cahier: "Specifications",
+          soutenance1: "Defense report 1",
+          soutenance2: "Defense report 2",
+          soutenance3: "Defense report 3",
+          soutenance4: "Defense report 4",
+        },
         menu: {
           introduction: "Introduction",
+          download_game: "Download",
           characters: "Characters",
           jouabilite: "Gameplay",
           telechargement: "Download",
           requirements: "Requirements",
-          manual: "Manual ",
-          reports: "Reports",
-          timeline: "Timeline",
+          manual: "Manuel ",
+          reports: "Rapports",
+          manual: "Manuel",
+          timeline: "Chronologie",
         },
         header: {
           title: "Etheryx World",
           subtitle: "By Epipower",
         },
         introduction: {
-          p: "Welcome to Etheryx World, a fascinating universe where the boundaries between life and death blur to reveal a captivating mystery.<br>Imagine yourself suddenly plunged into a parallel world, disconnected from everything you've known. It's in this intriguing setting that our heroine emerges after an unexpected death, ready to unravel the threads of a complex puzzle.<br><br>Etheryx World is much more than just a game. It's an immersive adventure that transports you on a breathtaking journey through enchanting landscapes and extraordinary encounters.<br>Inspired by the famous webtoon 'Why Raelina ended up at the Duke’s mansion' by Milcha, our game invites you to explore a parallel world filled with mysteries and intrigues.<br><br>You play as the main character, facing unprecedented challenges as you try to understand the circumstances of your own death. Through thrilling investigations and interactions with fascinating characters, you'll uncover the buried secrets of this mysterious realm.<br><br>But beware, because in Etheryx World, nothing is as it seems. Unexpected allies lurk in the shadows, while insurmountable obstacles stand in your way. Why are you here? Who can help you? And above all, who can be trusted?<br><br>Dive into the adventure and prepare to challenge the limits of reality in Etheryx World. You're no longer just a player, but a fearless explorer on the verge of discovering a parallel world where every decision matters and every revelation brings you closer to the ultimate truth. Are you ready to take on the challenge?",
+          p: "Welcome to Etheryx World, a fascinating universe where the boundaries between life and death blur to reveal a captivating mystery.<br>Imagine yourself suddenly plunged into a parallel world, disconnected from everything you've known. It's in this intriguing setting that our heroine emerges after an unexpected death, ready to unravel the threads of a complex puzzle.<br><br>Etheryx World is much more than just a game. It's an immersive adventure that transports you on a breathtaking journey through enchanting landscapes and extraordinary encounters.<br>Inspired by the famous webtoon 'Why Raelina ended up at the Duke’s mansion' by Milcha, our game invites you to explore a parallel world filled with mysteries and intrigues.<br><br>",
         },
         personnages: {
           p: "Our game is titled Etheryx World. It's a captivating adventure game that will immerse you in a mysterious and enchanting world.<br>\
@@ -59,13 +68,11 @@ $(document).ready(function () {
           h1: "Requirements",
         },
         reports: {
-          h1: "Report 1",
-          h1_1:"Report 2",
-          h1_2:"Report 3",
+          h1: "Reports",
         },
         manual: {
-          h1_fr: "Installation and uninstallation manual in french",
-          h1_en:"Installation and uninstallation manual in english",
+          h1_fr: "Manuel d'installation et de désinstallation en français",
+          h1_en: "Installation and uninstallation manual in English",
         },
       },
     },
@@ -73,13 +80,21 @@ $(document).ready(function () {
     //=========french versions
     fr: {
       translation: {
+        table_download: {
+          cahier: "Cahier des charges",
+          soutenance1: "Rapport de soutenance 1",
+          soutenance2: "Rapport de soutenance 2",
+          soutenance3: "Rapport de soutenance 3",
+          soutenance4: "Rapport de soutenance 4",
+        },
         menu: {
           introduction: "Introduction",
+          download_game: "Download",
           members: "Membres",
           characters: "Personnages",
           jouabilite: "Jouabilité",
           telechargement: "Téléchargement",
-          requirements: "Cahier-des-charges",
+          requirements: "Cahier des charges",
           reports: "Rapports",
           manual: "Manuel",
           timeline: "Chronologie",
@@ -89,7 +104,7 @@ $(document).ready(function () {
           subtitle: "Par Epipower",
         },
         introduction: {
-          p: "Bienvenue dans Etheryx World, un univers fascinant où les frontières entre la vie et la mort s'effacent pour révéler un mystère captivant.<br>Imaginez-vous soudainement plongé dans un monde parallèle, déconnecté de tout ce que vous avez connu. C'est dans ce cadre intrigant que notre héroïne émerge après une mort inattendue, prête à démêler les fils d'une énigme complexe. <br><br>Etheryx World est bien plus qu'un simple jeu. C'est une aventure immersive qui vous transporte dans un voyage époustouflant à travers des paysages enchanteurs et des rencontres extraordinaires.<br>Inspiré par le célèbre webtoon 'Why Raelina ended up at the Duke’s mansion' de Milcha, notre jeu vous invite à explorer un monde parallèle rempli de mystères et d'intrigues.<br><br>Vous incarnez le personnage principal, confronté à des défis sans précédent alors qu'il tente de comprendre les circonstances de son propre décès. À travers des enquêtes passionnantes et des interactions avec des personnages fascinants, vous découvrirez les secrets enfouis de ce royaume mystérieux.<br><br>Mais méfiez-vous, car dans Etheryx World, rien n'est ce qu'il semble être. Des alliés inattendus se cachent parmi les ombres, tandis que des obstacles insurmontables se dressent sur votre chemin. Pourquoi êtes-vous ici ? Qui peut vous aider ? Et surtout, qui peut être digne de confiance ?<br><br>Plongez dans l'aventure et préparez-vous à défier les limites de la réalité dans Etheryx World. Vous n'êtes plus seulement un joueur, mais un explorateur intrépide sur le point de découvrir un monde parallèle où chaque décision compte et chaque révélation vous rapproche de la vérité ultime. Êtes-vous prêt à relever le défi ?",
+          p: "Bienvenue dans Etheryx World, un univers fascinant où les frontières entre la vie et la mort s'effacent pour révéler un mystère captivant.<br>Imaginez-vous soudainement plongé dans un monde parallèle, déconnecté de tout ce que vous avez connu. C'est dans ce cadre intrigant que notre héroïne émerge après une mort inattendue, prête à démêler les fils d'une énigme complexe. <br><br>Etheryx World est bien plus qu'un simple jeu. C'est une aventure immersive qui vous transporte dans un voyage époustouflant à travers des paysages enchanteurs et des rencontres extraordinaires.<br>Inspiré par le célèbre webtoon 'Why Raelina ended up at the Duke’s mansion' de Milcha, notre jeu vous invite à explorer un monde parallèle rempli de mystères et d'intrigues.",
         },
         personnages: {
           p: "Notre jeu a pour titre Etheryx World. C'est un jeu d'aventure captivant qui vous plongera dans un monde mystérieux et envoûtant.<br>\
@@ -105,10 +120,10 @@ $(document).ready(function () {
     Cependant, ce ne sont pas seulement des adversaires mortels qu'elle rencontrera. Des êtres magiques et mystérieux peuplent également ce monde, certains offrant leur aide de manière désintéressée, tandis que d'autres poursuivent leurs propres desseins, rendant l'aventure encore plus complexe et imprévisible.<br>",
         },
 
-        membres: {
+        members: {
           content: "Ceci est la section Membres.",
         },
-        personnages: {
+        characters: {
           content: "Ceci est la section Personnages.",
         },
         jouabilite: {
@@ -127,17 +142,15 @@ $(document).ready(function () {
             "<p>Affrontez des adversaires redoutables dans Etheryx World !<br>Nos ennemis sont dotés d'une intelligence artificielle avancée, leur permettant de réagir de manière réaliste à vos actions.<br>Soyez prêt à relever des défis uniques alors que vous combattez des monstres aux comportements variés, chacun offrant un défi unique à surmonter.<br>Et n'oubliez pas, à la fin de votre périple, un affrontement épique vous attend contre l'anti-héros lui-même, également équipé d'une IA redoutable.</p><br><br>",
           end: "<p>Avec Etheryx World, plongez dans une aventure où chaque choix compte et où l'action est toujours au rendez-vous.<br>Êtes-vous prêt à relever le défi et à découvrir les mystères de ce monde fantastique ?</p>",
         },
-        Cahier_des_charges: {
+        "Cahier-des-charges": {
           h1: "Cahier des charges",
         },
-        rapports: {
-          h1: "Rapport de soutenance 1",
-          h1_1:"Rapport de soutenance 2",
-          h1_3:"Rapport de soutenance 3",
+        Rapports: {
+          h1: "Rapports de soutenance",
         },
-        manuel: {
+        Manuel: {
           h1_fr: "Manuel d'installation et de désinstallation en français",
-          h1_en: "Manuel d'installation et de désinstallation en anglais",
+          h1_en: "Installation and uninstallation manual in English",
         },
       },
     },
