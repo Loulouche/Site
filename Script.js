@@ -8,18 +8,20 @@ $(document).ready(function () {
           soutenance2: "Defense report 2",
           soutenance3: "Defense report 3",
           soutenance4: "Defense report 4",
+          installation: "Installation/Usage",
         },
         menu: {
           introduction: "Introduction",
           download_game: "Download",
           characters: "Characters",
           jouabilite: "Gameplay",
-          telechargement: "Download",
+          telechargement: "Download the Game",
           requirements: "Requirements",
           manual: "Manuel ",
+          members: "Members",
           reports: "Rapports",
           manual: "Manuel",
-          timeline: "Chronologie",
+          timeline: "Timeline",
         },
         header: {
           title: "Etheryx World",
@@ -34,12 +36,7 @@ $(document).ready(function () {
     In this new universe, they will have to meet different characters to find answers to their questions: Where are they and how did they get there?<br>\
     Being in a new world, they don't know who to trust. Indeed, some people will try to prevent them from investigating the reason for their presence.<br><br><br>\
     In this new kingdom, after solving many quests, they discover a name, but who is it? Our protagonist will eventually meet the holder of this famous name.<br><br><br>\
-    He will then teach them that they died in the world they came from and that this world is the one in which they will have to spend the rest of their life.<br>\
-    Thanks to the bonds they've formed in this world, a happy ending awaits them, as they've been able to build a circle of acquaintances they can trust and rely on their friends, something they lacked in their previous life.<br><br><br>\
-    Our heroine will not be alone in her quest. Throughout their journey, they will meet valuable allies, but also formidable enemies.<br>\
-    The antagonist, whose shadow looms over Etheryx World, proves to be a ruthless being determined to maintain the status quo and keep the world's secrets buried forever.<br><br><br>\
-    Their henchmen, nightmarish creatures born of darkness itself, will stand in the way of our protagonist, testing their courage and determination.<br>\
-    However, it's not only mortal adversaries they will encounter. Magical and mysterious beings also populate this world, some offering their help selflessly, while others pursue their own designs, making the adventure even more complex and unpredictable.<br>",
+    ",
         },
 
         members: {
@@ -49,6 +46,7 @@ $(document).ready(function () {
           content: "This is the Characters section.",
         },
         jouabilite: {
+          moreinfo: "More information",
           h1: "Discover immersive gameplay",
           mecanique: "Game Mechanics",
           content_mecanique:
@@ -86,6 +84,7 @@ $(document).ready(function () {
           soutenance2: "Rapport de soutenance 2",
           soutenance3: "Rapport de soutenance 3",
           soutenance4: "Rapport de soutenance 4",
+          installation: "Installation/Utilisation",
         },
         menu: {
           introduction: "Introduction",
@@ -93,7 +92,7 @@ $(document).ready(function () {
           members: "Membres",
           characters: "Personnages",
           jouabilite: "Jouabilité",
-          telechargement: "Téléchargement",
+          telechargement: "Télécharge le jeu",
           requirements: "Cahier des charges",
           reports: "Rapports",
           manual: "Manuel",
@@ -112,12 +111,7 @@ $(document).ready(function () {
     Dans ce nouvel univers, elle va devoir rencontrer différents personnages afin de trouver des réponses à ses questions : Où est-elle et comment est-elle arrivée là ?<br>\
     Étant dans un nouveau monde, elle ne sait pas à qui faire confiance. En effet, certaines personnes vont essayer de l'empêcher d'enquêter sur la raison de sa présence.<br><br><br>\
     Dans ce nouveau royaume, après avoir résolu de nombreuses quêtes, elle découvre un prénom, mais qui est-ce ? Notre protagoniste va finir par rencontrer le détenteur de ce fameux prénom.<br><br><br>\
-    Il va alors lui apprendre qu'elle est décédée dans le monde d'où elle vient et que ce monde est celui dans lequel elle va devoir passer le reste de sa vie.<br>\
-    Grâce aux liens qu'elle a tissés dans ce monde, une fin heureuse l'attend, car elle a pu se constituer un cercle de connaissances en qui elle peut avoir confiance et compter sur ses amis, un aspect qui lui manquait dans sa vie précédente.<br><br><br>\
-    Notre héroïne ne sera pas seule dans sa quête. Tout au long de son périple, elle rencontrera des alliés précieux, mais aussi des ennemis redoutables.<br>\
-    L'antagoniste, dont l'ombre plane sur Etheryx World, se révèle être un être impitoyable déterminé à maintenir le statu quo et à garder les secrets du monde enfouis à jamais.<br><br><br>\
-    Ses sbires, des créatures cauchemardesques engendrées par les ténèbres elles-mêmes, se dresseront sur le chemin de notre protagoniste, testant sa bravoure et sa détermination.<br>\
-    Cependant, ce ne sont pas seulement des adversaires mortels qu'elle rencontrera. Des êtres magiques et mystérieux peuplent également ce monde, certains offrant leur aide de manière désintéressée, tandis que d'autres poursuivent leurs propres desseins, rendant l'aventure encore plus complexe et imprévisible.<br>",
+    ",
         },
 
         members: {
@@ -127,6 +121,7 @@ $(document).ready(function () {
           content: "Ceci est la section Personnages.",
         },
         jouabilite: {
+          moreinfo: "Plus d'informations",
           h1: "Découvrez une jouabilité immersive",
           mecanique: "Mécanique de jeu",
           content_mecanique:
