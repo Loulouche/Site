@@ -50,7 +50,7 @@ $(document).ready(function () {
           h1: "Discover immersive gameplay",
           mecanique: "Game Mechanics",
           content_mecanique:
-            "<p>Immerse yourself in the action with Etheryx World! Our game offers a captivating gaming experience thanks to its well-designed mechanics.<br> Control your character smoothly, engage in epic battles with a variety of weapons, and solve complex puzzles<br> to progress through the adventure. Thanks to our expert use of the C# programming language,<br> you will benefit from smooth and realistic gameplay,<br> designed to offer you an unforgettable experience.</p><br><br>",
+            "<p>Immerse yourself in the action with Etheryx World! Our game offers a captivating gaming experience thanks to its well-designed mechanics.<br> Control your character smoothly, engage in epic battles with a variety of weapons, and solve complex puzzles to progress through the adventure.<br> Thanks to our expert use of the C# programming language, you will benefit from smooth and realistic gameplay,<br> designed to offer you an unforgettable experience.</p><br><br>",
           multijoueurs: "Multiplayer Mode",
           content_multijoueurs:
             "<p>Take on challenges together in Etheryx World! Our multiplayer platform offers a unique experience where you can solve puzzles solo or collaborate with your friends to tackle epic quests.<br>With an integrated chat system, communicate and exchange advice to overcome the obstacles that stand in your way. Dive into action with thrilling mini-quests designed to challenge even the most seasoned players.</p><br><br>",
@@ -125,7 +125,7 @@ $(document).ready(function () {
           h1: "Découvrez une jouabilité immersive",
           mecanique: "Mécanique de jeu",
           content_mecanique:
-            "Plongez au cœur de l'action avec Etheryx World ! Notre jeu offre une expérience de jeu captivante grâce à ses mécaniques bien conçues.<br> Contrôlez votre personnage avec fluidité, engagez-vous dans des combats épiques avec une variété d'armes et résolvez des énigmes complexes<br> pour progresser dans l'aventure. Grâce à notre utilisation experte du langage de programmation C#, vous bénéficierez d'un gameplay fluide et réaliste,<br> conçu pour vous offrir une expérience inoubliable.</p><br><br>",
+            "<p>Plongez au cœur de l'action avec Etheryx World ! Notre jeu offre une expérience de jeu captivante grâce à ses mécaniques bien conçues.<br> Contrôlez votre personnage avec fluidité, engagez-vous dans des combats épiques avec une variété d'armes et résolvez des énigmes complexes<br> pour progresser dans l'aventure. Grâce à notre utilisation experte du langage de programmation C#, vous bénéficierez d'un gameplay fluide et réaliste,<br> conçu pour vous offrir une expérience inoubliable.</p><br><br>",
           multijoueurs: "Mode Multijoueurs",
           content_multijoueurs:
             "<p>Relevez des défis ensemble dans Etheryx World ! Notre plateforme multijoueur offre une expérience unique où vous pouvez résoudre des énigmes en solo ou collaborer avec vos amis pour venir à bout de quêtes épiques.<br>Avec un système de chat intégré, communiquez et échangez des conseils pour surmonter les obstacles qui se dressent sur votre chemin. Plongez dans l'action avec des mini-quêtes palpitantes, conçues pour défier même les joueurs les plus aguerris.</p><br><br>",
